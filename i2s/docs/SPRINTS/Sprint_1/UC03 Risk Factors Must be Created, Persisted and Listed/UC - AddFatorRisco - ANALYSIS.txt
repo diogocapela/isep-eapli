@@ -1,0 +1,36 @@
+___________
+
+	ANÁLISE 
+	____________
+
+	Reunião com o cliente  em 
+
+	* O fator de risco é caracterizado por um nome e uma descrição
+	* O fator de risco é identificado pelo nome que, por essa razão, deve ser único
+	* O fator de risco pode estar ativo ou inativo
+	* Exemplos de tipos de risco: Distância Mínima, Tempo Mínimo, Densidade, Quantidade
+
+	* Cada fator de risco esta associado a um ou mais Envolventes
+	* Só os fatores de risco ativos podem ser associados a Envolventes
+	* Alterar o estado de um fator de risco não tem repercussões nos fatores de risco existentes
+
+
+	______________________
+
+	REGRAS DE NEGÓCIO
+	_____________________
+
+	* Um fator de risco é criado no estado ativo
+
+
+
+	______________________
+		
+	TESTES UNITÁRIOS
+	_____________________
+
+	* O fator de risco tem que ter um nome
+	* O nome do fator de risco não pode ser vazio nem com espaço(s)
+	* O fator de risco tem que ter uma descrição
+	* A descrição do fator de risco não pode ser vazio
+	* Quando um fator de risco é criado o seu estado é ativo

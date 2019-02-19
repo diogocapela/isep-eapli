@@ -1,0 +1,19 @@
+
+Sprint	Prio	area	UC	Title	Obs
+2	1	config		As underwriter I want to publish a risk matrix	make a risk matrix "in force" by setting the start date
+
+2	1	risk assessment service	1	implement mock georeference service	in a separate project
+2	1	risk assessment service	1	As RA service I want to perform risk assessment without details	just the calculation of the risk without explanation details
+2	2	risk assessment service	1	As RA service I want to perform risk assessment	just the calculation of the risk and its details
+2	1	risk assessment service	1	As RA service I want to create a RA case from JSON	saving the case request and its risk value and details
+2	1	risk assessment service	1	As RA service I want to get an existing case in JSON	reading an existing case from the persistence store
+
+2	1	risk assessment service	1	As RA service I want to provide a comparison of risk assessment using diferent versions of the risk matrix
+
+2	1	risk assessment service	2	As RA service I want to process a set of requests	opportunity to link to SCOMP and do some multithreading
+
+2	2	config		As underwriter manager I want to receive an email whenever a new coverage is created	sends an email to predefined email address (configured in a property file)
+2	2	config		As underwriter I want to know which coverages are not configured in one risk matrix
+2	2	config		As underwriter I want to know wich risk factors are not configured in one risk matrix
+
+2	2	config		As underwriter I want to start a new matrix characterization from an existing detailed/characterized matrix

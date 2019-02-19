@@ -1,0 +1,32 @@
+	_________
+
+	DESIGN
+	_________
+
+   	Classes do domínio:  FatorRisco
+   	Controlador: AddFatorRiscoController
+   	Repository: FatorRiscoRepository
+
+
+	Diagrama de Sequência - 
+
+		title SD - Add Fator Risco
+
+		participant ":AddFatorRiscoUI" as rui
+		participant ":AddFatorRiscoController" as ctrl
+		participant ":PersistenceContext" as pc
+		participant ":RepositoryFactory" as rf
+		participant ":FatorRiscoRepository" as repo
+		participant ":FatorRisco" as dt
+
+		rui->ctrl:create
+		ctrl->pc:repositories()
+		pc->rf:create
+		rf->repo:create
+		pc-->ctrl:FatorRiscoRepository
+
+		rui->rui:doShow()
+		rui->ctrl:addFatorRisco(nome, descricao)
+
+		ctrl->dt:newFatorRisco = create(nome, descricao)
+		ctrl->repo:save(newFatorRisco)

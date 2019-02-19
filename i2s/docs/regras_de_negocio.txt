@@ -1,0 +1,57 @@
+=================
+REGRAS DE NEGOCIO
+=================
+
+
+MATRIZ BASE
+-----------
+
+# uma matriz base tem que ter pelo menos uma cobertura e um factor de risco
+# todas as coberturas tem informação para os mesmos factores
+# não há coberturas repetidas
+# não há factores repetidos
+# a matriz base tem um "nome", a versão, temporário até ser publicada, ex., "201904". quando for publicada será atribuido o nome oficial (a versão)
+
+
+
+MATRIZ CARACTERIZADA
+--------------------
+
+# para cada par (cobertura, factor) marcado como "a considerar" na matriz base, tem que existir uma caracterização
+
+
+
+MATRIZ DETALHADA
+----------------
+
+# para cada par (cobertura, factor) caracterizado na matriz caracterizada, tem que existir um detalhe
+
+
+
+MATRIZ PUBLICADA
+----------------
+
+# apenas pode ser publicada uma matriz detalhada
+# ao ser publicada é indicada a data de entrada em vigor
+# a data de entrada em vigor passa a ser o "nome" da versão da matriz de risco, ex., "2019/04/05"
+# num dado momento apenas existe uma matriz em vigor
+# uma matriz publicada não pode ser alterada
+# uma matriz publicada pode ser usada como base para criar uma nova versão da matriz de risco. a nova matriz (cópia) será uma matriz detalhada
+
+
+
+MATRIZ OBSOLETA
+---------------
+
+# uma matriz publicada torna-se obsoleta quando uma nova matriz publicada entrar em vigor
+
+
+
+AVALIACAO DE RISCO
+------------------
+
+# para efeitos de teste pode-se fazer avaliações com matrizes detalhadas (não publicadas) mas tais avaliações não são válidas para o negócio
+# para efeitos de negócio apenas é válida uma avaliação com uma matriz publicada
+# para efeitos de comparação pode-se fazer avaliações com matriz obsoletas ou detalhadas ou publicadas
+
+

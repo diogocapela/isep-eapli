@@ -1,0 +1,35 @@
+{
+    "estao": "ESPERA",
+    "objetos_segurados": [
+        {
+            "lng": 3.4234423,
+            "coberturas": [
+                {
+                    "titulo_cobertura": "Incendio",
+                    "descricao_cobertura": "Seguro para incêncios."
+                },
+                {
+                    "titulo_cobertura": "Inundacao",
+                    "descricao_cobertura": "Seguro para inundações."
+                }
+            ],
+            "lat": 2.3213,
+            "descricao": "Desc 1"
+        },
+        {
+            "lng": 10.4234423,
+            "coberturas": [
+                {
+                    "titulo_cobertura": "Tempestade",
+                    "descricao_cobertura": "Seguro para tempestades."
+                },
+                {
+                    "titulo_cobertura": "Furto",
+                    "descricao_cobertura": "Seguro para furtos."
+                }
+            ],
+            "lat": 4.3213,
+            "descricao": "Desc 2"
+        }
+    ]
+}

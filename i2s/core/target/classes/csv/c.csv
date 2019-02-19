@@ -1,0 +1,6 @@
+Tempestade,Bombeiros,Distancia Minima,2,Facultativo,Negativa
+Tempestade,Bombeiros,Tempo Minimo,1,Facultativo,Negativa
+Tempestade,Floresta,Area,4,Obrigatório,Positiva
+Inundacao,Bombeiros,Distancia Minima,5,Obrigatório,Positiva
+Inundacao,Bombeiros,Tempo Minimo,2,Facultativo,Negativa
+Inundacao,Floresta,Area,5,Obrigatório,Positiva

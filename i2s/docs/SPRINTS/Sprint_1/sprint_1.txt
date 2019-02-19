@@ -1,0 +1,24 @@
+
+Sprint	Prio	area	UC	Title
+1	1	setup		setup repository
+1	1	setup		setup project structure
+1	1	config	1	As underwriter I want to create a coverage
+1	1	config	1	bootstrap coverage data
+1	1	config	2	As underwriter I want to create a "Surrounding Type" without any category
+1	1	config	2	bootstrap "surrounding type" data witout any category
+1	1	config	3	As underwriter I want to create a "risk factor"
+1	1	config	3	bootstrap "risk factor" data
+1	1	config	4	As underwriter I want to import a CSV file to setup which factors are meaningfull for each coverage
+1	1	config	4	bootstrap base risk matrix by importing a CSV
+1	1	config	5	As underwriter I want to import a CSV to setup the weight of each risk factor of each coverage
+1	1	config	5	As underwriter I want to import a CSV to setup the "need of analisys" of each risk factor of each coverage
+1	1	config	5	As underwriter I want to import a CSV to setup the "contribution" of each risk factor of each coverage
+1	1	config	5	bootstrap the weight of each risk factor of each coverage
+1	1	config	5	bootstrap the "need of analisys" of each risk factor of each coverage
+1	1	config	5	bootstrap the "contribution" of each risk factor of each coverage
+1	1	config	6	As underwriter I want to import a CSV with the detailed risk matrix
+1	1	config	6	bootstrap detailed risk matrix
+1	2	config	1	As underwriter I want to list all coverage
+1	2	config	2	As underwriter I want to list all "surrounding types"
+1	2	config	3	As underwriter I want to list risk factors
+1	2	config	4	As underwriter I want to generate a CSV file to setup which factors are meaningfull for each coverage
